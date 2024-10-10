@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    width: 100%;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    border: 100%;
+    background-color: rgb(246, 93, 182);
+}
+
+.lan {
+    margin: 1rem 1rem 1rem 1rem;
+    font-weight: bold;
+    font-family: Arial Black;
+}
+
+.logo1 {
+    display: flex;
+}
+
+.l1 {
+    padding: 20px 20px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.l2 {
+    padding: 20px 20px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.l3 {
+    padding: 20px 20px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.l4 {
+    padding: 20px 20px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+.l5 {
+    padding: 20px 20px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+.l6 {
+    padding: 20px 20px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 104, 127);
+}
+
+.details {
+    display: flex;
+}
+
+.name,
+.email,
+.consult {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    border-color: black;
+    margin: 1rem 1rem 1rem 1rem;
+    background-color: rgb(114, 158, 211);
+}
+
+.name:hover,
+.email:hover,
+.consult:hover {
+    cursor: pointer;
+    background-color: orange;
+    color: black;
+}
+
+.name {
+    margin: 1rem 1rem 0rem 7rem;
+
+}
+
+.ins {
+    display: flex;
+}
+
+p {
+    margin: 2rem 4rem 0rem 0rem;
+    font-weight: bold;
+}
+
+.second {
+    height: 300px;
+    background-image: url(https://c8.alamy.com/comp/2AXTNP2/flat-lay-of-couple-passport-cup-of-coffee-and-computer-laptop-on-pastel-pink-color-background-with-copy-space-decorate-with-red-heart-and-blue-wave-2AXTNP2.jpg);
+    fill-opacity: 1;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.hello {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.hii {
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+.hey {
+    width: 12%;
+    height: 2rem;
+}
+
+h2 {
+    font-weight: 100px;
+    font-size: 50px;
+    padding: 10px;
+    color: rgb(252, 6, 92);
+}
+
+#age {
+    background-color: rgb(249, 57, 162);
+    color: white;
+    padding: 6px;
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 10px;
+}
+
+.knows {
+    background-color: rgb(253, 65, 152);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 1rem 1rem 1rem 41rem;
+}
+
+.features {
+    height: 35rem;
+    background-image: url(https://i.pinimg.com/736x/e7/61/f5/e761f563d53ef6994c050f0ab918266a.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+
+h3 {
+    color: rgb(251, 103, 153);
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.f1 {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+h4 {
+    color: rgb(251, 103, 153);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.f2 {
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+h5 {
+    color: rgb(251, 103, 153);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.f3 {
+    margin-top: 80px;
+    margin-left: 1000px;
+}
+
+.about {
+    background-color: rgb(244, 108, 130);
+    padding: 10px;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.us {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.reads {
+    background-color: rgb(247, 58, 121);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 750px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .lan {
+        margin-left: 10px;
+        margin-top: -50px;
+    }
+
+    .logo1 {
+        padding: 10px 20px;
+    }
+
+    .number,
+    .email,
+    .consult {
+        width: 120px;
+        margin: 20px auto;
+    }
+
+    .knows {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 80%;
+    }
+
+    .features {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .lan {
+        margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .name:hover,
+    .email:hover,
+    .consult:hover {
+        cursor: pointer;
+        background-color: orange;
+        color: black;
+    }
+
+    .topbar {
+        height: auto;
+        width: auto;
+    }
+
+    .numbers {
+        margin: 1.5rem 0rem 1rem -6rem;
+    }
+
+    .consultation {
+        margin: 1.5rem 9rem 1rem 1rem;
+    }
+
+    .emailaddress {
+        margin: 1.5rem 1rem 1rem 1rem;
+    }
+
+    .consult {
+        width: 200%;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 2rem;
+    }
+
+    .reads {
+        margin: 1rem 1rem 1rem 1rem;
+    }
+}
